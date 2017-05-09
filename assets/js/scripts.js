@@ -1,6 +1,9 @@
+// jslint browser: true
+// global $, jQuery, alert
+
 var appMaster = {
 
-    preLoader: function(){
+    preLoader: function () {
         imageSources = []
         $('img').each(function() {
             var sources = $(this).attr('src');
